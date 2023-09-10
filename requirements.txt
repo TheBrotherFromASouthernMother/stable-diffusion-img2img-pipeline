@@ -1,0 +1,9 @@
+datasets
+torch
+torchvision
+git+https://github.com/huggingface/diffusers@fa6d52d
+transformers
+accelerate
+ftfy
+safetensors
+gradio
