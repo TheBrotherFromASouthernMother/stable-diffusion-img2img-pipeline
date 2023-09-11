@@ -13,3 +13,5 @@ with gr.Blocks() as demo:
             create_img2img_demo(
                 model.run_img2img_pipe
             )
+
+demo.queue(max_size=5).launch()
